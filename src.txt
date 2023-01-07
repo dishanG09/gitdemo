@@ -2,3 +2,4 @@ dev branch
 dev feature 1
 master feature 1
 dev feature 2
+master feature 2
