@@ -5,7 +5,6 @@ dev feature 2
 master feature 2
 dev feature 3
 master feature 3
-Integrated to CI
-Switching to manual Build
+
 
 Finally re configured...webhook...lets see !!
