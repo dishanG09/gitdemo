@@ -1,0 +1,24 @@
+pipeline{
+    
+    agent any
+    
+    stages {
+        
+        stage('Git pull stage'){
+            steps{
+                git "git@github.com:dishanG09/gitdemo.git"
+            }
+        }
+        
+        stage("Build"){
+            steps{
+                sh "g++ a.cpp"
+            }
+        }
+        stage("deploy"){
+            steps{
+                sh "./a.out"
+            }
+        }
+    }
+}
